@@ -1,0 +1,1 @@
+this is a text and a static file static file is file that anyone taht come on the server and can access
