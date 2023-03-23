@@ -14,5 +14,6 @@ admin.site.index_title = "Welcome to gsw Researcher Portal"
 urlpatterns = [
     path("",views.index, name='home'),
     path("about",views.about, name='about'),
-    path("services",views.services, name='services')
+    path("services",views.services, name='services'),
+    path("contacts",views.contacts, name='contacts')
 ]

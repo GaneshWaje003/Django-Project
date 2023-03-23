@@ -9,12 +9,12 @@ def index(request):
     return render(request,'index.html')
 
 def about(request):
-    return HttpResponse("this is about page")
+    return render(request,'about.html')
 
 def services(request):
-    return HttpResponse("services")
+    return render(request,'services.html')
 
 def contacts(request):
-    return HttpResponse("this is about page")
+    return render(request,'contacts.html')
 
 # compiler comes here due to refference of the urls.py of home app
